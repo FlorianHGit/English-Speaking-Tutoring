@@ -1,21 +1,54 @@
-/* Import google Font Roboto */
+/* Import Google Font Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* Color-sheme from coloors.com
-#8EA8BF  cyan;
-#2E5159 cyan;
-#537322 blue;
-#6D733F green;
+/* Color scheme from coloors.com
+#8EA8BF cyan;
+#2E5159 blue;
+#537322 green;
+#6D733F leafe;
 #F2F2F2 white;
 */
 
-
-/*Setting root-properties*/
+/* Setting root properties */
 * {
     background-color: #F2F2F2;
-    font-family: Roboto sans-serif;
+    font-family: 'Roboto', sans-serif; /* Correct font family syntax */
 }
 
+
 body {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif; /* Correct font family syntax */
+    background-color: #2E5159;
+}
+
+
+/* header section */
+header  {
+
+}
+
+
+/* nav-bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#logo {
+     width: 68px;
+     min-width: 34px;
+     max-width: 68px;
+}
+
+
+/* main section */
+main {
+
+}
+
+
+/* footer section */
+footer {
+
 }
