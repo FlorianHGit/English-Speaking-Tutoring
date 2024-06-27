@@ -30,9 +30,10 @@ header  {
     position: fixed;
     z-index: 100;
     width: 100%;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 
     background-color: #2E5159;
 }
@@ -40,6 +41,9 @@ header  {
 /* adressing the anker-tags in my header */
 header a {
     text-decoration: none;
+    color: #F2F2F2;
+    margin-right: 0px;
+
 }
 
 #nav-links {
@@ -100,15 +104,37 @@ main {
     background-color: #F2F2F2;
 }
 
+/* hero section */
+#hero-section {
+    background-image: url(/assets/images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 20%;
+    width: 100%;
+}
+
+
+
+
+
 
 /* footer section */
 footer {
     display: block;
+    background-color: #537322;
+    margin-bottom: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 0;
+    border: solid 2px black;
 }
 
 #social-medias {
     display: flex;
     justify-items: space-between;
+    flex-direction: row-reverse;
     align-items: center;
     padding: 0px 25px;
     list-style: none;
@@ -119,8 +145,9 @@ footer {
     padding: 5%;;
 }
 
-#social-medias li #copyright {
-    font-size: 0.4em;
-    flex: end;
-    color: #8EA8BF;
+#copyright {
+    font-size: 1em;
+    flex: flex-start;
+    color: #8ea8bf;
+    font-weight: bold;
 }
