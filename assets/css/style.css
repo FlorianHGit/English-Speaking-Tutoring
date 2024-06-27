@@ -132,6 +132,39 @@ h3 {
 }
 
 
+h4 {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+
+#about-us {
+    display: block;
+    text-align: start;
+}
+
+
+#sign-up {
+
+}
+
+#sign-up-form {
+
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+.input-class {
+    margin: 5px;
+}
+
+#contact {
+    display: block;
+    text-align: start;
+}
+
+
 /* footer section */
 footer {
     display: block;
