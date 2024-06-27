@@ -91,6 +91,7 @@ nav {
 
 #logo-title {
     font-size: 2em;
+    color: #F2F2F2;
 }
 
 
@@ -102,5 +103,24 @@ main {
 
 /* footer section */
 footer {
+    display: block;
+}
 
+#social-medias {
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    padding: 0px 25px;
+    list-style: none;
+}
+
+#social-medias li {
+    font-size: 160%;
+    padding: 5%;;
+}
+
+#social-medias li #copyright {
+    font-size: 0.4em;
+    flex: end;
+    color: #8EA8BF;
 }
