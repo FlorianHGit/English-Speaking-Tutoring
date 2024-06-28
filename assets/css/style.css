@@ -64,14 +64,15 @@ nav {
 
     position: absolute;
     background-color: #83c5be;
+    width: 100%;
+    left: 0;
+    /* padding: 0 1rem; */
 
     /* display none, to hide */
     display: none;
-    width: 100vw;
     top: 100%;
     border-top: #000000 dotted 1px;
     border-bottom: #000000 solid 2px;
-    border-left: #000000 solid 2px;
 }
 
 /* nav-toggle */
@@ -140,6 +141,7 @@ main {
     margin-left: auto;
     text-align: right;
     max-width: 50%;
+    width: fit-content;
 }
 
 
@@ -169,7 +171,7 @@ h4 {
 
 
 #sign-up-form {
-    background-color: transparent;
+    /* background-color: transparent; */
     font-size: 0.8rem;
     font-weight: bold;
 }
@@ -196,7 +198,9 @@ h4 {
 
 /* footer section */
 footer {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: #83c5be;
     margin-bottom: 0;
     width: 100%;
@@ -212,7 +216,6 @@ footer {
     display: flex;
     justify-items: space-between;
     flex-direction: row-reverse;
-    align-items: center;
     padding: 0px 25px;
     list-style: none;
 }
@@ -223,15 +226,20 @@ footer {
 }
 
 #copyright {
-    align-items: center;
+    justify-content: flex-start;
     font-size: 0.6em;
-    flex: flex-start;
     color: #000000;
     font-weight: bold;
 }
 
 
 @media screen and (min-width: 768px) {
+    #social-medias li #copyright {
+        justify-content: left;
+        font-size: 0.6em;
+        color: #000000;
+        font-weight: bold;
+    }
 
 }
 

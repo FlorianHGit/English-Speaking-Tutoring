@@ -23,7 +23,7 @@
                 ENG English
             </span>
             <!-- Burger-toggle for mobile screens -->
-            <input type="checkbox" id="fa-bars-toggle" name="fa-bars-toggle">
+            <input type="checkbox" id="fa-bars-toggle" name="fa-bars-toggle" aria-label="Click here to unfold the menu">
             <label for="fa-bars-toggle" id="label-fa-bars-toggle">
                <i class="fa-solid fa-bars"></i>
              </label>
@@ -69,13 +69,13 @@
                     Sign-Up
                 </h3>
                 <form action="https://formdump.codeinstitute.net"method="POST" id="sign-up-form">
-                    <label for="first-name">First Name: </label>
-                    <input type="text" name="first-name" id="first-name" placeholder="Type here" class="input-class" required> </br>
-                    <label for="last-name">Last Name: </label>
-                    <input type="text" name="last-name" id="last-name" placeholder="Type here" class="input-class" required> </br>
-                    <label for="email-address">Email Address: </label>
-                    <input type="email" name="email" id="email-address" placeholder="Type here" class="input-class" required> </br>
-                <button type="submit" id="join-button">Click to join!</button>
+                    <label for="first-name" aria-label="first name">First Name: </label>
+                    <input type="text" name="first-name" aria-label="type here first name"id="first-name" placeholder="Type here" class="input-class" required> </br>
+                    <label for="last-name" aria-label="last name">Last Name: </label>
+                    <input type="text" name="last-name" aria-label="type here last name" id="last-name" placeholder="Type here" class="input-class" required> </br>
+                    <label for="email-address" aria-label="email" >Email Address: </label>
+                    <input type="email" name="email" id="email-address" aria-label="type here email" placeholder="Type here" class="input-class" required> </br>
+                <button type="submit" id="join-button" aria-label="press here to submit">Click to join!</button>
                 </form>
             </section>
             <!-- Contact -->
@@ -84,7 +84,7 @@
                     Contact
                 </h3>
                     <p> 
-                        <span  aria-label="Phone: +44-9981-067-415">Phone: +44-9981-067-415</span> </br>
+                        <span aria-label="Phone: +44-9981-067-415">Phone: +44-9981-067-415</span> </br>
                         <span aria-label="Email: contact@eng.english.com">Email: contact@eng.english.com</span> </br>
                         <span aria-label="82 Manor Road">82 Manor Road</span> </br>
                         <span aria-label="London">London</span>  </br>
