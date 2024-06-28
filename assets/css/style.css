@@ -1,15 +1,12 @@
 /* Import Google Font Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 /* Setting root properties */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
     font-family: 'Roboto', sans-serif;
 }
-
 
 body {
     display: flex;
@@ -17,7 +14,6 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #edf6f9;
 }
-
 
 /* header section */
 header  {
@@ -29,7 +25,6 @@ header  {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     background-color: #83c5be;
     border-bottom: #000000 solid 2px;
 }
@@ -39,7 +34,6 @@ header a {
     text-decoration: none;
     color: #000000;
     margin-right: 0px;
-
 }
 
 #nav-links {
@@ -56,17 +50,14 @@ nav-links a {
     text-decoration: none;
 }
 
-
 /* nav-bar */
 nav {
     display: flex;
     justify-content: space-between;
-
     position: absolute;
     background-color: #83c5be;
     width: 100%;
     left: 0;
-
     /* display none, to hide */
     display: none;
     top: 100%;
@@ -87,19 +78,16 @@ nav {
     font-size: 2.5rem;
 }
 
-
 #logo {
      width: 52px;
      min-width: 34px;
      max-width: 52px;
 }
 
-
 #logo-title {
     font-size: 1.5rem;
     color: #000000;
 }
-
 
 #hero-headline {
     font-size: 1.2rem;
@@ -107,12 +95,10 @@ nav {
     text-decoration: underline;
 }
 
-
 #hero-call-to-action {
     font-size: 1.1rem;
     font-style: italic;
 }
-
 
 /* main section */
 main {
@@ -143,19 +129,16 @@ main {
     width: fit-content;
 }
 
-
 h3 {
     font-size: 1.5em;
     line-height: 1.5;
     color: #006d77;
 }
 
-
 h4 {
     font-size: 1.2em;
     line-height: 1.5;
 }
-
 
 #about-us {
     display: block;
@@ -163,18 +146,15 @@ h4 {
     border-bottom: #83c5be dotted 1px;
 }
 
-
 #sign-up {
     border-bottom: #83c5be dotted 1px;
 }
-
 
 #sign-up-form {
     text-align: start;
     font-size: 0.8rem;
     font-weight: bold;
 }
-
 
 #join-button {
     background-color: #83c5be;
@@ -187,18 +167,15 @@ h4 {
     background-color: azure;
 }
 
-
 .input-class {
     margin: 5px;
 }
-
 
 #contact {
     display: block;
     text-align: start;
     border-bottom: #83c5be dotted 1px;
 }
-
 
 /* footer section */
 footer {
@@ -236,42 +213,33 @@ footer {
     font-weight: bold;
 }
 
-
 @media screen and (min-width: 768px) {
     #about-us {
         display: block;
         text-align: center;
         border-bottom: #83c5be dotted 1px;
     }
-
-
     #sign-up-form {
         text-align: center;
         font-size: 0.8rem;
         font-weight: bold;
     }
-
     h3 {
         text-align: center;
         font-size: 1.5em;
         line-height: 1.5;
         color: #006d77;
     }
-
-    
     #contact {
         display: block;
         text-align: center;
         border-bottom: #83c5be dotted 1px;
     }
-
-
     #opening-hours-table {
         margin: 0 auto;
     }
 
 }
-
 
 @media screen and (min-width: 992px) {
     #sign-up-form {
@@ -279,22 +247,17 @@ footer {
         font-size: 0.8rem;
         font-weight: bold;
     }
-
     h3 {
         text-align: center;
         font-size: 1.5em;
         line-height: 1.5;
         color: #006d77;
     }
-
-    
     #contact {
         display: block;
         text-align: center;
         border-bottom: #83c5be dotted 1px;
     }
-
-
     #opening-hours-table {
         margin: 0 auto;
     }
