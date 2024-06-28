@@ -124,7 +124,7 @@ main {
     border-bottom: black solid 2px;
     position: relative;
     padding: 40px;
-    background-image: url(/assets/images/hero.jpg);
+    background-image: url(../images/hero.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
