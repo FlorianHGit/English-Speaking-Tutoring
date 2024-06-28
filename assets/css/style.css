@@ -215,30 +215,40 @@ footer {
 
 @media screen and (min-width: 768px) {
     #about-us {
+        margin: 2rem 0px 1.5rem 0px;
         display: block;
         text-align: center;
         border-bottom: #83c5be dotted 1px;
     }
+    #form-details {
+        text-align: center;
+    }
+
     #sign-up-form {
+        margin: 2rem 0px 1.5rem 0px;
         text-align: center;
         font-size: 0.8rem;
         font-weight: bold;
     }
     h3 {
+        margin: 2rem 0px 1.5rem 0px;
         text-align: center;
         font-size: 1.5em;
         line-height: 1.5;
         color: #006d77;
     }
     #contact {
+        margin: 2rem 0px 1.5rem 0px;
         display: block;
         text-align: center;
         border-bottom: #83c5be dotted 1px;
     }
-    #opening-hours-table {
-        margin: 0 auto;
+    #opening-hours-table-header {
+        margin: 2rem 0px 1.5rem 0px;
     }
-
+    #opening-hours-table {
+        margin: 2rem auto;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -254,12 +264,15 @@ footer {
         color: #006d77;
     }
     #contact {
+        margin: 2rem 0px 1.5rem 0px;
         display: block;
         text-align: center;
         border-bottom: #83c5be dotted 1px;
     }
+    #opening-hours-table-header {
+        margin: 2rem 0px 1.5rem 0px;
+    }
     #opening-hours-table {
-        margin: 0 auto;
+        margin: 2rem auto;
     }
 }
-

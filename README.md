@@ -76,7 +76,4 @@ I got inspiration for the header and navbar, from the awesome 'Love Running Proj
 
 SCREENSHOT
 
-
-## Content
-
-I've used ChatGPT to review my English sentences. I drew inspiration from our project 'Love Runner' for the header and footer. I made some changes, such as using flex-reverse and adding additional property values. I believe the navbar and footer are quite conventional nowadays and represent best practices. I've tried to incorporate as many lessons as possible. Also, after tinkering with the code, especially CSS, for a while, I asked ChatGPT for a hint.
+I've used ChatGPT to review my English sentences.
