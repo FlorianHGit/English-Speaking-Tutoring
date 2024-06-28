@@ -61,6 +61,7 @@ nav-links a {
 nav {
     display: flex;
     justify-content: space-between;
+    justify-items: end;
 
     position: absolute;
     background-color: #83c5be;
