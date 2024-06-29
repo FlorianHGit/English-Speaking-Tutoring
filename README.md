@@ -1,79 +1,92 @@
 # ENG English-Speaking-Tutoring
-
-With the ENG-Speaking-Tutoring Website, we want to enhance local accessibility.
+With the ENG-Speaking-Tutoring Website, we aim to enhance local accessibility.
 Our goal is to present ourselves and make it easy for new customers to get in touch with us.
 We believe presenting our service on the Internet will attract many new people.
 
+![Webpage](/readme-images/1-Webpage.png)
 
 
 ## Features
-
 Our site contains a navigation bar and three different sections.
+It uses media queries to fit perfectly on every screen.
 
-SCREENSHOT
+![Scalability](/readme-images/2-scalability.png)
 
 
-## Navigation-Bar
+## Navigation Bar
 This feature allows our potential customers and interested parties to easily navigate between the sections.
 
-On the left side, it features the famous 'Big Ben' as a clickable icon to underscore our service visually.
+On the left side, it features the famous 'Big Ben' as a clickable icon to visually underscore our service.
 
-SCREENSHOT
+![Navbar](/readme-images/3-navbar.png)
 
 
-## The Landing-Page
-It also includes a language-related picture, along with our name and a catchy slogan.
+## Landing Page
+The landing page includes a language-related picture, along with our name and a catchy call-to-action.
 
-SCREENSHOT
+![Landing Page](/readme-images/4-landing-page.png)
 
 
 ## About Us
-    
-This section explains in short who we are and what we are doing.
+This section explains in detail who we are and what we do. It has a bullet-pointed list that displays our services.
 
-SCREENSHOT
+![About Us](/readme-images/5-about-us.png)
 
 
-## Sign In
+## Sign Up
+Our Sign-Up form gives site visitors the ability to register with their name and email.
+By registering, they will receive a 10% discount on their first lessons, and it will allow us to communicate with them more easily.
 
-We implement a form that allows the user send us his information.
-
-SCREENSHOT
+![Sign Up](/readme-images/6-sign-up-form.png)
 
 
 ## Contact
+Here we display our opening hours, as well as our address.
 
-Here we are showing our opening hours, as well as our adress.
+![Contact](/readme-images/7-contact.png)
 
-SCREENSHOT
+
+## Footer
+Contains our Copyright and links to our Social-Medias
+
+![Footer](/readme-images/8-footer.png)
 
 
 ## Testing
+I've tested the deployed webpage with Lighthouse and achieved great results for both mobile and desktop.
 
-SCREENSHOT
+![Testing Mobile](/readme-images/9-testing-mobile.png)
+
+![Testing Desktop](/readme-images/10-testing-desktop.png)
 
 
-### Validator testing
+### Validating HTML
+To validate the HTML, I've utilized W3C HTML Validator. It gave me some error messages, but they are related to ARIA labels, so I think that's acceptable.
 
-SCREENSHOT
+https://validator.w3.org/nu/?doc=https%3A%2F%2Ffgit-24.github.io%2FEnglish-Speaking-Tutoring%2F
 
+
+### Validating CSS
+For validating the CSS, I've used W3C CSS Validator. It should be free of bugs.
+
+![Testing CSS](/readme-images/11-testing-css.png)
 
 ### Unfixed Bugs
-
-I did't find bugs.
+I didn't find any bugs.
 
 
 ## Deployment
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://fgit-24.github.io/English-Speaking-Tutoring/
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+
+In the GitHub repository, navigate to the Settings tab.
+From the source section drop-down menu, select the Master Branch.
+Once the master branch has been selected, the page will automatically refresh with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here: https://fgit-24.github.io/English-Speaking-Tutoring/
 
 
 ## Credits
-I got inspiration for the header and navbar, from the awesome 'Love Running Project'.
+I got inspiration for the header and navbar from the awesome 'Love Running Project', but I made a lot of changes and added some new features.
 
-SCREENSHOT
+![Love Running](/readme-images/12-love-running.png)
 
 I've used ChatGPT to review my English sentences.
