@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    background-color: #edf6f9;
+    background-color: #F3F8FF;
 }
 
 /* header section */
@@ -26,7 +26,7 @@ header  {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #83c5be;
+    background-color: #DEECFF;
     border-bottom: #000000 solid 2px;
 }
 
@@ -47,13 +47,11 @@ header a {
     width: 50%;
 }
 
-
 nav-links a {
     text-decoration: none;
 }
 
-
-#nav-links a:active{
+#nav-links a:active {
     font-weight: bold;
     text-decoration: underline;
 }
@@ -63,7 +61,7 @@ nav {
     display: flex;
     justify-content: space-between;
     position: absolute;
-    background-color: #83c5be;
+    background-color: #F3F8FF;
     width: 100%;
     left: 0;
     /* display none, to hide */
@@ -190,7 +188,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #83c5be;
+    background-color: #DEECFF;
     margin-bottom: 0;
     width: 100%;
     height: 60px;
