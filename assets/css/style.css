@@ -47,8 +47,15 @@ header a {
     width: 50%;
 }
 
+
 nav-links a {
     text-decoration: none;
+}
+
+
+#nav-links a:active{
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /* nav-bar */
