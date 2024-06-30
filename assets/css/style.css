@@ -164,13 +164,14 @@ h4 {
 
 #join-button {
     background-color: #83c5be;
+
     margin-top: 5px;
     font-size: 1.2rem;
 }
 
 /* Indicates that the button got clicked */
 #join-button:focus {
-    background-color: azure;
+    color: #006d77;
 }
 
 .input-class {
