@@ -271,13 +271,6 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-    #hero-headline {
-        font-size: 2rem;
-    }
-    
-    #hero-call-to-action {
-        font-size: 2rem;
-    }
     #about-us {
         margin: 2rem 0px 1.5rem 0px;
         display: block;
@@ -315,13 +308,6 @@ footer {
 }
 
 @media screen and (min-width: 992px) {
-    #hero-headline {
-        font-size: 2.2rem;
-    }
-    
-    #hero-call-to-action {
-        font-size: 2.2rem;
-    }
     #sign-up-form {
         text-align: center;
         font-size: 0.8rem;

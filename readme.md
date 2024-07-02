@@ -55,10 +55,17 @@ Contains our Copyright and links to our Social-Medias
 ## Testing
 I've tested the deployed webpage with Lighthouse and achieved great results for both mobile and desktop.
 
+Chrome-Browser:
 ![Testing Mobile](/readme-images/9-testing-mobile.png)
 
 ![Testing Desktop](/readme-images/10-testing-desktop.png)
 
+
+Edge-Browser:
+
+
+
+Unfortunatly I have no Safari-Browser
 
 ### Validating HTML
 To validate the HTML, I've utilized W3C HTML Validator. It gave me some error messages, but they are related to ARIA labels, so I think that's acceptable.
