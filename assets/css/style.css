@@ -124,7 +124,8 @@ main {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
-    height: 30vh;
+    background-color: #ECEEED;
+    height: 20vh;
     width: 100%;
     overflow: hidden;
     display: flex;
