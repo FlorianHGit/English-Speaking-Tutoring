@@ -85,8 +85,6 @@ The live link can be found here: https://fgit-24.github.io/English-Speaking-Tuto
 
 
 ## Credits
-I got inspiration for the header and navbar from the awesome 'Love Running Project', but I made a lot of changes and added some new features.
+I made a lot of changes and added some new features, but I got inspiration for the header and navbar from the awesome 'Love Running Project' at [Codeinstitute.](https://codeinstitute.net)
 
-![Love Running](/readme-images/12-love-running.png)
-
-I've used ChatGPT to review my English sentences.
+I've used [ChatGPT](https://chatgpt.com/) to review my English sentences.
