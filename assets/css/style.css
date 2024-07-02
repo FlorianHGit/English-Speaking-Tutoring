@@ -1,5 +1,6 @@
 /* Import Google Font Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /* Setting root properties */
 * {
     padding: 0;
@@ -12,12 +13,11 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;
     background-color: #F3F8FF;
 }
 
 /* header section */
-header  {
+header {
     position: fixed;
     z-index: 100;
     width: 100%;
@@ -30,7 +30,7 @@ header  {
     border-bottom: #000000 solid 2px;
 }
 
-/* adressing the anker-tags in my header */
+/* addressing the anchor tags in my header */
 header a {
     text-decoration: none;
     color: #000000;
@@ -72,7 +72,7 @@ nav {
 }
 
 /* nav-toggle */
-#fa-bars-toggle:checked~nav {
+#fa-bars-toggle:checked ~ nav {
     display: block;
 }
 
@@ -85,9 +85,9 @@ nav {
 }
 
 #logo {
-     width: 52px;
-     min-width: 34px;
-     max-width: 52px;
+    width: 52px;
+    min-width: 34px;
+    max-width: 52px;
 }
 
 #logo-title {
@@ -164,7 +164,6 @@ h4 {
 
 #join-button {
     background-color: #83c5be;
-
     margin-top: 5px;
     font-size: 1.2rem;
 }
@@ -184,7 +183,7 @@ h4 {
     border-bottom: #83c5be dotted 1px;
 }
 
-/* footer section */
+/* footer */
 footer {
     display: flex;
     align-items: center;
@@ -209,7 +208,7 @@ footer {
 
 #social-medias li {
     font-size: 120%;
-    padding: 5%;;
+    padding: 5%;
 }
 
 #copyright {
@@ -230,7 +229,6 @@ footer {
     #form-details {
         text-align: center;
     }
-
     #sign-up-form {
         margin: 2rem 0px 1.5rem 0px;
         text-align: center;
