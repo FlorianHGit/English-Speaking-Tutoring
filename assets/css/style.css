@@ -124,8 +124,7 @@ main {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
-    background-color: #ECEEED;
-    height: 20vh;
+    height: 15vh;
     width: 100%;
     overflow: hidden;
     display: flex;
@@ -227,7 +226,58 @@ footer {
     line-height: 1.2;
 }
 
+@media screen and (min-width: 450px) {
+    #sign-up-form {
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+    #about-us {
+        margin: 2rem 0px 1.5rem 0px;
+        display: block;
+        text-align: center;
+        border-bottom: #83c5be dotted 1px;
+    }
+    #form-details {
+        text-align: center;
+    }
+    #sign-up-form {
+        margin: 2rem 0px 1.5rem 0px;
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    h3 {
+        margin: 2rem 0px 1.5rem 0px;
+        text-align: center;
+        font-size: 1.5em;
+        line-height: 1.5;
+        color: #006d77;
+    }
+    #contact {
+        margin: 2rem 0px 1.5rem 0px;
+        display: block;
+        text-align: center;
+        border-bottom: #83c5be dotted 1px;
+    }
+    #opening-hours-table-header {
+        margin: 2rem 0px 1.5rem 0px;
+    }
+    #opening-hours-table {
+        margin: 2rem auto;
+    }
+}
+
 @media screen and (min-width: 768px) {
+    #hero-headline {
+        font-size: 2rem;
+    }
+    
+    #hero-call-to-action {
+        font-size: 2rem;
+    }
     #about-us {
         margin: 2rem 0px 1.5rem 0px;
         display: block;
@@ -265,6 +315,13 @@ footer {
 }
 
 @media screen and (min-width: 992px) {
+    #hero-headline {
+        font-size: 2.2rem;
+    }
+    
+    #hero-call-to-action {
+        font-size: 2.2rem;
+    }
     #sign-up-form {
         text-align: center;
         font-size: 0.8rem;
