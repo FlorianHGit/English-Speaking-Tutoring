@@ -72,7 +72,7 @@ For validating the CSS, I've used W3C CSS Validator. It should be free of bugs.
 ![Testing CSS](/readme-images/11-testing-css.png)
 
 ### Unfixed Bugs
-I didn't find any bugs.
+I'm aware of some that I can improve some of my commits.
 
 
 ## Deployment
