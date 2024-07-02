@@ -16,6 +16,10 @@ body {
     background-color: #F3F8FF;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* header section */
 header {
     position: fixed;
@@ -120,7 +124,7 @@ main {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
-    height: 20vh;
+    height: 30vh;
     width: 100%;
     overflow: hidden;
     display: flex;
@@ -147,12 +151,14 @@ h4 {
 }
 
 #about-us {
+    height: 100vh;
     display: block;
     text-align: start;
     border-bottom: #83c5be dotted 1px;
 }
 
 #sign-up {
+    height: 100vh;
     border-bottom: #83c5be dotted 1px;
 }
 
@@ -178,6 +184,7 @@ h4 {
 }
 
 #contact {
+    height: 100vh;
     display: block;
     text-align: start;
     border-bottom: #83c5be dotted 1px;
