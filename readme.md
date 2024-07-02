@@ -3,7 +3,7 @@ With the ENG-Speaking-Tutoring Website, we aim to enhance local accessibility.
 Our goal is to present ourselves and make it easy for new customers to get in touch with us.
 We believe presenting our service on the Internet will attract many new people.
 
-![Webpage](/readme-images/1-Webpage.png)
+![Webpage](/readme-images/1-webpage.png)
 
 
 ## Features
