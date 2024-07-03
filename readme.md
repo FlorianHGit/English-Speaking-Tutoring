@@ -37,7 +37,7 @@ This section explains in detail who we are and what we do. It has a bullet-point
 Our Sign-Up form gives site visitors the ability to register with their name and email.
 By registering, they will receive a 10% discount on their first lessons, and it will allow us to communicate with them more easily.
 
-![Sign Up](/readme-images/6-sign-up-form.png)
+![Sign Up](/readme-images/6-sign-up.png)
 
 
 ## Contact
