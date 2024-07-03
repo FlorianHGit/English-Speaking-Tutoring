@@ -53,15 +53,18 @@ Contains our Copyright and links to our Social-Medias
 
 
 ## Testing
+
+
 I've tested the deployed webpage with Lighthouse and achieved great results for both mobile and desktop.
 
-Chrome-Browser:
 ![Testing Mobile](/readme-images/9-testing-mobile.png)
 
 ![Testing Desktop](/readme-images/10-testing-desktop.png)
 
 
-Edge-Browser:
+I've also tested the Webpage on mobile and with the Edge-Browser.
+
+Unfortunatley I don't have access to Safari.
 
 
 
@@ -79,7 +82,7 @@ For validating the CSS, I've used W3C CSS Validator. It should be free of bugs.
 ![Testing CSS](/readme-images/11-testing-css.png)
 
 ### Unfixed Bugs
-I'm aware of some that I can improve some of my commits.
+I'm aware that I can improve some of my commits.
 
 
 ## Deployment
