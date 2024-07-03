@@ -101,7 +101,7 @@ nav {
 }
 
 #hero-headline {
-    margin-top: 6vh;
+    margin-top: 2em;
     font-size: 1.2rem;
     text-decoration: underline;
 }
@@ -149,6 +149,10 @@ h3 {
     color: #006d77;
 }
 
+#sign-up-h3 {
+    color: whitesmoke;
+}
+
 h4 {
     margin-left: 0.15rem;
     font-size: 1.2em;
@@ -156,9 +160,9 @@ h4 {
 }
 
 #about-us {
+    background-color: #c6cddf;
     margin-left: 0.15rem;
     height: 100vh;
-    display: block;
     text-align: start;
 }
 
@@ -179,7 +183,7 @@ h4 {
 }
 
 #join-button {
-    background-color: #83c5be;
+    background-color: whitesmoke;
     margin-top: 5px;
     font-size: 1.2rem;
 }
@@ -238,12 +242,9 @@ footer {
 }
 
 @media screen and (min-width: 450px) {
-    body {
-        font-size: 1.2rem;
-    }
     #hero-headline {
-        margin-top: 6vh;
-        font-size: 1.5rem;
+        margin-top: 2em;
+        font-size: 1.3rem;
         text-decoration: underline;
     }  
     #hero-call-to-action {
@@ -297,16 +298,13 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-    body {
-        font-size: 1.6rem;
-    }
     #hero-headline {
-        margin-top: 6vh;
-        font-size: 1.8rem;
+        margin-top: 2em;
+        font-size: 1.4rem;
         text-decoration: underline;
     }  
     #hero-call-to-action {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-style: italic;
         line-height: 0.8em;
         align-items: baseline;
@@ -348,16 +346,13 @@ footer {
 }
 
 @media screen and (min-width: 992px) {
-    body {
-        font-size: 1.8rem;
-    }
     #hero-headline {
-        margin-top: 6vh;
-        font-size: 2.1rem;
+        margin-top: 2em;
+        font-size: 1.5rem;
         text-decoration: underline;
     }  
     #hero-call-to-action {
-        font-size: 1.9rem;
+        font-size: 1.5rem;
         font-style: italic;
         line-height: 0.8em;
         align-items: baseline;
