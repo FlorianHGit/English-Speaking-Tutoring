@@ -43,12 +43,14 @@ header a {
 
 #nav-links {
     font-size: 120%;
+    height: 100%;
+    background-color: #DEECFF;
     letter-spacing: 2px;
     list-style-type: none;
-    overflow: auto;
+    /* overflow: auto; */
     text-align: right;
-    margin-left: 46vw;
-    width: 50%;
+    margin-right: 0.1rem;
+    width: 100%;
 }
 
 nav-links a {
@@ -276,6 +278,17 @@ footer {
         line-height: 0.8em;
         align-items: baseline;
     }
+    #nav-links {
+        font-size: 120%;
+        height: 150%;
+        background-color: #DEECFF;
+        letter-spacing: 2px;
+        list-style-type: none;
+        /* overflow: auto; */
+        text-align: right;
+        margin-right: 0.1rem;
+        width: 100%;
+    }
     h3 {
         text-align: center;
         font-size: 1.5em;
@@ -348,6 +361,17 @@ footer {
 @media screen and (min-width: 768px) {
     body {
         font-size: 2rem;
+    }
+    #nav-links {
+        font-size: 120%;
+        height: 200%;
+        background-color: #DEECFF;
+        letter-spacing: 2px;
+        list-style-type: none;
+        /* overflow: auto; */
+        text-align: right;
+        margin-right: 0.1rem;
+        width: 100%;
     }
     #hero-headline {
         margin-top: 2em;
@@ -427,6 +451,17 @@ footer {
 @media screen and (min-width: 992px) {
     body {
         font-size: 2.2rem;
+    }
+    #nav-links {
+        font-size: 120%;
+        height: 200%;
+        background-color: #DEECFF;
+        letter-spacing: 2px;
+        list-style-type: none;
+        /* overflow: auto; */
+        text-align: right;
+        margin-right: 0.1rem;
+        width: 100%;
     }
     #hero-headline {
         margin-top: 2em;
