@@ -143,6 +143,8 @@ main {
 }
 
 h3 {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
     margin-left: 0.15rem;
     font-size: 1.5em;
     line-height: 1.5;
@@ -161,11 +163,10 @@ h4 {
 
 #about-us {
     min-height: 33.33vh;
-    max-height: 100vh;
     padding: 5em;
     background-color: #c6cddf;
     margin-left: 0.15rem;
-    height: 100vh;
+    height: 150h;
     text-align: start;
 }
 
@@ -189,7 +190,7 @@ h4 {
 }
 
 #join-button {
-    background-color: whitesmoke;
+    background-color: #DEECFF;
     margin-top: 5px;
     font-size: 1.2rem;
 }
