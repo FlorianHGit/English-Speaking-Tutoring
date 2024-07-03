@@ -176,11 +176,15 @@ h4 {
     height: 130vh;
     text-align: start;
 }
+.list-headline {
+    line-height: 3rem;
+    margin-top: 2rem;
+}
 
 #sign-up {
     padding: 5em;
     margin-left: 0.15rem;
-    height: 100vh;
+    height: 120vh;
     background-image: url(../images/sign-up.jpg);
     background-size: cover;
     background-position: center;
@@ -282,6 +286,10 @@ footer {
         display: block;
         text-align: center;
     }
+    .list-headline {
+        line-height: 3rem;
+        margin-top: 2rem;
+    }
     #sign-up {
         height: 150vh;
         text-align: center;
@@ -356,6 +364,10 @@ footer {
         text-align: center;
         border-bottom: #83c5be dotted 1px;
     }
+    .list-headline {
+        line-height: 3rem;
+        margin-top: 2rem;
+    }
     #sign-up {
         height: 200vh;
     }
@@ -427,6 +439,10 @@ footer {
         display: block;
         text-align: center;
         border-bottom: #83c5be dotted 1px;
+    }
+    .list-headline {
+        line-height: 3rem;
+        margin-top: 2rem;
     }
     #sign-up {
         height: 200vh;
