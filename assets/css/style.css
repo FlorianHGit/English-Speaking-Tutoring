@@ -206,7 +206,7 @@ h4 {
 
 #contact {
     min-height: 33.33vh;
-    max-height: 100vh;
+    max-height: 130vh;
     padding: 5em;
     margin-left: 0.15rem;
     height: 100vh;
@@ -379,6 +379,7 @@ footer {
         display: block;
         text-align: center;
         border-bottom: #83c5be dotted 1px;
+        height: 120vh;
     }
     #opening-hours-table-header {
         margin: 2rem 0px 1.5rem 0px;
@@ -438,6 +439,7 @@ footer {
         display: block;
         text-align: center;
         border-bottom: #83c5be dotted 1px;
+        height: 130vh;
     }
     #opening-hours-table-header {
         margin: 2rem 0px 1.5rem 0px;
