@@ -251,7 +251,10 @@ footer {
     line-height: 1.2;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 546px) {
+    body {
+        font-size: 1.4rem;
+    }
     #hero-headline {
         margin-top: 2em;
         font-size: 1.3rem;
@@ -262,10 +265,6 @@ footer {
         font-style: italic;
         line-height: 0.8em;
         align-items: baseline;
-    }
-    #sign-up-form {
-        display: block;
-        text-align: center;
     }
     h3 {
         text-align: center;
@@ -279,12 +278,27 @@ footer {
     }
     #form-details {
         text-align: center;
+        font-size: 1.4rem;
     }
     #sign-up-form {
         margin: 2rem 0px 1.5rem 0px;
         text-align: center;
         font-size: 0.8rem;
         font-weight: bold;
+        display: block;
+        text-align: center;
+    }
+    #join-button {
+        font-size: 1.4rem;
+    }
+    .first-name {
+        font-size: 1.4rem;
+    }
+    .last-name {
+        font-size: 1.4rem;
+    }
+    .email-address{
+        font-size: 1.4rem;
     }
     h3 {
         margin: 2rem 0px 1.5rem 0px;
@@ -308,6 +322,9 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+    body {
+        font-size: 2rem;
+    }
     #hero-headline {
         margin-top: 2em;
         font-size: 1.4rem;
@@ -326,6 +343,7 @@ footer {
         border-bottom: #83c5be dotted 1px;
     }
     #form-details {
+        font-size: 2rem;
         text-align: center;
     }
     #sign-up-form {
@@ -333,6 +351,21 @@ footer {
         text-align: center;
         font-size: 0.8rem;
         font-weight: bold;
+    }
+    .first-name {
+        font-size: 2rem;
+        color: #DEECFF;
+    }
+    .last-name {
+        font-size: 2rem;
+        color: #DEECFF;
+    }
+    .email-address{
+        font-size: 2rem;
+        color: #DEECFF;
+    }
+    #join-button {
+        font-size: 2rem;
     }
     h3 {
         margin: 2rem 0px 1.5rem 0px;
@@ -356,6 +389,9 @@ footer {
 }
 
 @media screen and (min-width: 992px) {
+    body {
+        font-size: 2.2rem;
+    }
     #hero-headline {
         margin-top: 2em;
         font-size: 1.5rem;
@@ -367,10 +403,29 @@ footer {
         line-height: 0.8em;
         align-items: baseline;
     }
+    #form-details {
+        font-size: 2.2rem;
+        text-align: center;
+    }
     #sign-up-form {
         text-align: center;
         font-size: 0.8rem;
         font-weight: bold;
+    }
+    .first-name {
+        font-size: 2.2rem;
+        color: #DEECFF;
+    }
+    .last-name {
+        font-size: 2.2rem;
+        color: #DEECFF;
+    }
+    .email-address{
+        font-size: 2.2rem;
+        color: #DEECFF;
+    }
+    #join-button {
+        font-size: 2.2rem;
     }
     h3 {
         text-align: center;
