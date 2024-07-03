@@ -176,7 +176,7 @@ h4 {
     padding: 5em;
     margin-left: 0.15rem;
     height: 100vh;
-    background-image: url('/assets/images/sign-up.jpg');
+    background-image: url('../images/sign-up.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
