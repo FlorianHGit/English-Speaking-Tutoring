@@ -160,6 +160,9 @@ h4 {
 }
 
 #about-us {
+    min-height: 33.33vh;
+    max-height: 100vh;
+    padding: 5em;
     background-color: #c6cddf;
     margin-left: 0.15rem;
     height: 100vh;
@@ -167,6 +170,9 @@ h4 {
 }
 
 #sign-up {
+    min-height: 33.33vh;
+    max-height: 100vh;
+    padding: 5em;
     margin-left: 0.15rem;
     height: 100vh;
     background-image: url('/assets/images/sign-up.jpg');
@@ -198,6 +204,9 @@ h4 {
 }
 
 #contact {
+    min-height: 33.33vh;
+    max-height: 100vh;
+    padding: 5em;
     margin-left: 0.15rem;
     height: 100vh;
     display: block;
@@ -262,7 +271,7 @@ footer {
         font-size: 1.5em;
     }
     #about-us {
-        margin: 2rem 0px 1.5rem 0px;
+        padding: 2rem 0px 1.5rem 0px;
         display: block;
         text-align: center;
         border-bottom: #83c5be dotted 1px;
