@@ -1,6 +1,5 @@
 /* Import Google Font Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 /* Setting root properties */
 * {
     padding: 0;
@@ -13,7 +12,8 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #F3F8FF;
+    font-family: 'Roboto', sans-serif;
+    background-color: #edf6f9;
 }
 
 html {
@@ -21,20 +21,20 @@ html {
 }
 
 /* header section */
-header {
+header  {
     position: fixed;
     z-index: 100;
     width: 100%;
-    height: 80px;
+    height: 40px;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #DEECFF;
+    background-color: #83c5be;
     border-bottom: #000000 solid 2px;
 }
 
-/* addressing the anchor tags in my header */
+/* adressing the anker-tags in my header */
 header a {
     text-decoration: none;
     color: #000000;
@@ -43,23 +43,16 @@ header a {
 
 #nav-links {
     font-size: 120%;
-    height: 100%;
-    background-color: #DEECFF;
     letter-spacing: 2px;
     list-style-type: none;
-    /* overflow: auto; */
+    overflow: auto;
     text-align: right;
-    margin-right: 0.1rem;
-    width: 100%;
+    margin-left: 46vw;
+    width: 50%;
 }
 
 nav-links a {
     text-decoration: none;
-}
-
-#nav-links a:active {
-    font-weight: bold;
-    text-decoration: underline;
 }
 
 /* nav-bar */
@@ -67,8 +60,7 @@ nav {
     display: flex;
     justify-content: space-between;
     position: absolute;
-    background-color: #F3F8FF;
-    height: 150%;
+    background-color: #83c5be;
     width: 100%;
     left: 0;
     /* display none, to hide */
@@ -79,7 +71,7 @@ nav {
 }
 
 /* nav-toggle */
-#fa-bars-toggle:checked ~ nav {
+#fa-bars-toggle:checked~nav {
     display: block;
 }
 
@@ -92,9 +84,9 @@ nav {
 }
 
 #logo {
-    width: 52px;
-    min-width: 34px;
-    max-width: 52px;
+     width: 52px;
+     min-width: 34px;
+     max-width: 52px;
 }
 
 #logo-title {
@@ -103,7 +95,6 @@ nav {
 }
 
 #hero-headline {
-    margin-top: 2em;
     font-size: 1.2rem;
     text-decoration: underline;
 }
@@ -112,7 +103,6 @@ nav {
     font-size: 1.1rem;
     font-style: italic;
     line-height: 0.8em;
-    align-items: baseline;
 }
 
 /* main section */
@@ -145,73 +135,41 @@ main {
 }
 
 h3 {
-    padding-top: 2rem;
-    padding-bottom: 1.5rem;
-    margin-left: 0.15rem;
     font-size: 1.5em;
     line-height: 1.5;
     color: #006d77;
 }
 
-.highlight-list {
-    min-height: 33.33vh;
-    padding: 5em;
-    margin-left: 0.15rem;
-    text-align: start;
-}
-
-#sign-up-h3 {
-    color: whitesmoke;
-}
-
 h4 {
-    margin-left: 0.15rem;
     font-size: 1.2em;
     line-height: 1.5;
 }
 
 #about-us {
-    min-height: 33.33vh;
-    padding: 5em;
-    background-color: #c6cddf;
-    margin-left: 0.15rem;
-    height: 130vh;
+    display: block;
     text-align: start;
-}
-.list-headline {
-    line-height: 3rem;
-    margin-top: 2rem;
+    border-bottom: #83c5be dotted 1px;
 }
 
 #sign-up {
-    padding: 5em;
-    margin-left: 0.15rem;
-    height: 120vh;
-    background-image: url(../images/sign-up.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.highlight {
-    font-weight: bold;
+    border-bottom: #83c5be dotted 1px;
 }
 
 #sign-up-form {
-    margin-left: 0.15rem;
     text-align: start;
     font-size: 0.8rem;
     font-weight: bold;
 }
 
 #join-button {
-    background-color: #DEECFF;
+    background-color: #83c5be;
     margin-top: 5px;
     font-size: 1.2rem;
 }
 
 /* Indicates that the button got clicked */
 #join-button:focus {
-    color: #006d77;
+    background-color: azure;
 }
 
 .input-class {
@@ -219,22 +177,20 @@ h4 {
 }
 
 #contact {
-    padding: 5em;
-    margin-left: 0.15rem;
-    height: 100vh;
     display: block;
     text-align: start;
+    border-bottom: #83c5be dotted 1px;
 }
 
-/* footer */
+/* footer section */
 footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #DEECFF;
+    background-color: #83c5be;
     margin-bottom: 0;
     width: 100%;
-    height: 80px;
+    height: 60px;
     position: fixed;
     bottom: 0;
     padding: 0;
@@ -251,11 +207,10 @@ footer {
 
 #social-medias li {
     font-size: 120%;
-    padding: 5%;
+    padding: 5%;;
 }
 
 #copyright {
-    margin-left: 0.15rem;
     justify-content: flex-start;
     font-size: 0.6em;
     color: #000000;
@@ -263,168 +218,29 @@ footer {
     line-height: 1.2;
 }
 
-@media screen and (min-width: 546px) {
-    body {
-        font-size: 1.4rem;
-    }
-    #hero-headline {
-        margin-top: 2em;
-        font-size: 1.3rem;
-        text-decoration: underline;
-    }  
-    #hero-call-to-action {
-        font-size: 1.3rem;
-        font-style: italic;
-        line-height: 0.8em;
-        align-items: baseline;
-    }
-    #nav-links {
-        font-size: 120%;
-        height: 150%;
-        background-color: #DEECFF;
-        letter-spacing: 2px;
-        list-style-type: none;
-        /* overflow: auto; */
-        text-align: right;
-        margin-right: 0.1rem;
-        width: 100%;
-    }
-    h3 {
-        text-align: center;
-        font-size: 1.5em;
-    }
-    #about-us {
-        padding: 2rem 0px 1.5rem 0px;
-        height: 130vh;
-        display: block;
-        text-align: center;
-    }
-    .list-headline {
-        line-height: 3rem;
-        margin-top: 2rem;
-    }
-    #sign-up {
-        height: 160vh;
-        text-align: center;
-    }
-    ul {
-        list-style-type: none;
-    }
-    #form-details {
-        text-align: center;
-        font-size: 1.4rem;
-    }
-    #sign-up-form {
-        margin: 2rem 0px 1.5rem 0px;
-        text-align: center;
-        font-size: 0.8rem;
-        font-weight: bold;
-        display: block;
-        text-align: center;
-    }
-    #join-button {
-        font-size: 1.4rem;
-    }
-    .first-name {
-        margin: 1rem;
-        font-size: 1.4rem;
-    }
-    .last-name {
-        margin: 1rem;
-        font-size: 1.4rem;
-    }
-    .email-address{
-        margin: 1rem;
-        font-size: 1.4rem;
-    }
-    h3 {
-        margin: 2rem 0px 1.5rem 0px;
-        text-align: center;
-        font-size: 1.5em;
-        line-height: 1.5;
-        color: #006d77;
-    }
-    #contact {
-        margin: 2rem 0px 1.5rem 0px;
-        display: block;
-        text-align: center;
-        border-bottom: #83c5be dotted 1px;
-    }
-    #opening-hours-table-header {
-        margin: 2rem 0px 1.5rem 0px;
-    }
-    #opening-hours-table {
-        margin: 2rem auto;
-    }
-}
-
 @media screen and (min-width: 768px) {
-    body {
-        font-size: 2rem;
-    }
-    #nav-links {
-        font-size: 120%;
-        height: 200%;
-        background-color: #DEECFF;
-        letter-spacing: 2px;
-        list-style-type: none;
-        /* overflow: auto; */
-        text-align: right;
-        margin-right: 0.1rem;
-        width: 100%;
-    }
-    #hero-headline {
-        margin-top: 2em;
-        font-size: 1.4rem;
-        text-decoration: underline;
-    }  
-    #hero-call-to-action {
-        font-size: 1.4rem;
-        font-style: italic;
-        line-height: 0.8em;
-        align-items: baseline;
-    }
     #about-us {
         margin: 2rem 0px 1.5rem 0px;
-        height: 160vh;
         display: block;
         text-align: center;
         border-bottom: #83c5be dotted 1px;
     }
-    .list-headline {
-        line-height: 3rem;
-        margin-top: 2rem;
-    }
-    #sign-up {
-        height: 200vh;
-    }
     #form-details {
-        font-size: 2rem;
         text-align: center;
     }
+    #sign-up {
+        margin: 2rem 0px 1.5rem 0px;
+        display: block;
+        text-align: center;
+        border-bottom: #83c5be dotted 1px;
+    }
+
     #sign-up-form {
         margin: 2rem 0px 1.5rem 0px;
         text-align: center;
         font-size: 0.8rem;
         font-weight: bold;
-    }
-    .first-name {
-        font-size: 2rem;
-        margin: 1rem;
-        color: #DEECFF;
-    }
-    .last-name {
-        font-size: 2rem;
-        margin: 1rem;
-        color: #DEECFF;
-    }
-    .email-address{
-        font-size: 2rem;
-        margin: 1rem;
-        color: #DEECFF;
-    }
-    #join-button {
-        font-size: 2rem;
+        min-width: 320px;
     }
     h3 {
         margin: 2rem 0px 1.5rem 0px;
@@ -438,7 +254,6 @@ footer {
         display: block;
         text-align: center;
         border-bottom: #83c5be dotted 1px;
-        height: 120vh;
     }
     #opening-hours-table-header {
         margin: 2rem 0px 1.5rem 0px;
@@ -449,71 +264,10 @@ footer {
 }
 
 @media screen and (min-width: 992px) {
-    body {
-        font-size: 2.2rem;
-    }
-    #nav-links {
-        font-size: 120%;
-        height: 200%;
-        background-color: #DEECFF;
-        letter-spacing: 2px;
-        list-style-type: none;
-        /* overflow: auto; */
-        text-align: right;
-        margin-right: 0.1rem;
-        width: 100%;
-    }
-    #hero-headline {
-        margin-top: 2em;
-        font-size: 1.5rem;
-        text-decoration: underline;
-    }  
-    #hero-call-to-action {
-        font-size: 1.5rem;
-        font-style: italic;
-        line-height: 0.8em;
-        align-items: baseline;
-    }
-    #about-us {
-        margin: 2rem 0px 1.5rem 0px;
-        height: 160vh;
-        display: block;
-        text-align: center;
-        border-bottom: #83c5be dotted 1px;
-    }
-    .list-headline {
-        line-height: 3rem;
-        margin-top: 2rem;
-    }
-    #sign-up {
-        height: 200vh;
-    }
-    #form-details {
-        font-size: 2.2rem;
-        text-align: center;
-    }
     #sign-up-form {
         text-align: center;
         font-size: 0.8rem;
         font-weight: bold;
-    }
-    .first-name {
-        font-size: 2.2rem;
-        margin: 1rem;
-        color: #DEECFF;
-    }
-    .last-name {
-        font-size: 2.2rem;
-        margin: 1rem;
-        color: #DEECFF;
-    }
-    .email-address{
-        font-size: 2.2rem;
-        margin: 1rem;
-        color: #DEECFF;
-    }
-    #join-button {
-        font-size: 2.2rem;
     }
     h3 {
         text-align: center;
@@ -526,7 +280,6 @@ footer {
         display: block;
         text-align: center;
         border-bottom: #83c5be dotted 1px;
-        height: 130vh;
     }
     #opening-hours-table-header {
         margin: 2rem 0px 1.5rem 0px;
