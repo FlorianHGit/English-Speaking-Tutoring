@@ -173,14 +173,14 @@ h4 {
     padding: 5em;
     background-color: #c6cddf;
     margin-left: 0.15rem;
-    height: 150h;
+    height: 130vh;
     text-align: start;
 }
 
 #sign-up {
     padding: 5em;
     margin-left: 0.15rem;
-    height: 200vh;
+    height: 100vh;
     background-image: url(../images/sign-up.jpg);
     background-size: cover;
     background-position: center;
@@ -188,7 +188,6 @@ h4 {
 }
 .highlight {
     font-weight: bold;
-    list-style-type: none;
 }
 
 #sign-up-form {
@@ -214,8 +213,6 @@ h4 {
 }
 
 #contact {
-    min-height: 33.33vh;
-    max-height: 130vh;
     padding: 5em;
     margin-left: 0.15rem;
     height: 100vh;
@@ -281,12 +278,16 @@ footer {
     }
     #about-us {
         padding: 2rem 0px 1.5rem 0px;
+        height: 130vh;
         display: block;
         text-align: center;
-        border-bottom: #83c5be dotted 1px;
     }
     #sign-up {
-        height: 200vh;
+        height: 150vh;
+        text-align: center;
+    }
+    ul {
+        list-style-type: none;
     }
     #form-details {
         text-align: center;
@@ -350,6 +351,7 @@ footer {
     }
     #about-us {
         margin: 2rem 0px 1.5rem 0px;
+        height: 160vh;
         display: block;
         text-align: center;
         border-bottom: #83c5be dotted 1px;
@@ -418,6 +420,13 @@ footer {
         font-style: italic;
         line-height: 0.8em;
         align-items: baseline;
+    }
+    #about-us {
+        margin: 2rem 0px 1.5rem 0px;
+        height: 160vh;
+        display: block;
+        text-align: center;
+        border-bottom: #83c5be dotted 1px;
     }
     #sign-up {
         height: 200vh;
