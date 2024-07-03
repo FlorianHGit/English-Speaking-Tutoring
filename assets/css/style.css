@@ -291,7 +291,7 @@ footer {
         margin-top: 2rem;
     }
     #sign-up {
-        height: 150vh;
+        height: 160vh;
         text-align: center;
     }
     ul {
@@ -313,12 +313,15 @@ footer {
         font-size: 1.4rem;
     }
     .first-name {
+        margin: 1rem;
         font-size: 1.4rem;
     }
     .last-name {
+        margin: 1rem;
         font-size: 1.4rem;
     }
     .email-address{
+        margin: 1rem;
         font-size: 1.4rem;
     }
     h3 {
@@ -383,14 +386,17 @@ footer {
     }
     .first-name {
         font-size: 2rem;
+        margin: 1rem;
         color: #DEECFF;
     }
     .last-name {
         font-size: 2rem;
+        margin: 1rem;
         color: #DEECFF;
     }
     .email-address{
         font-size: 2rem;
+        margin: 1rem;
         color: #DEECFF;
     }
     #join-button {
@@ -458,14 +464,17 @@ footer {
     }
     .first-name {
         font-size: 2.2rem;
+        margin: 1rem;
         color: #DEECFF;
     }
     .last-name {
         font-size: 2.2rem;
+        margin: 1rem;
         color: #DEECFF;
     }
     .email-address{
         font-size: 2.2rem;
+        margin: 1rem;
         color: #DEECFF;
     }
     #join-button {
