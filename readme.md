@@ -62,7 +62,20 @@ I've tested the deployed webpage with Lighthouse and achieved great results for 
 ![Testing Desktop](/readme-images/10-testing-desktop.png)
 
 
-I've also tested the Webpage on mobile and with the Edge-Browser.
+### Mobile-Browser
+![Testing Chrome](/readme-images/13-testing-mobile-browser.png)
+
+
+I've also tested on Chrome- and Edge-Browser:
+
+### Chrome-Browser
+![Testing Chrome](/readme-images/11-testing-chrome-browser.png)
+
+
+
+### Edge-Browser
+
+![Testing Edge](/readme-images/12-testing-edge-browser.png)
 
 Unfortunatley I don't have access to Safari.
 
@@ -75,11 +88,15 @@ To validate the HTML, I've utilized W3C HTML Validator. It gave me some error me
 
 https://validator.w3.org/nu/?doc=https%3A%2F%2Ffgit-24.github.io%2FEnglish-Speaking-Tutoring%2F
 
+![Testing HTML](/readme-images/15-testing-html.png)
+
 
 ### Validating CSS
 For validating the CSS, I've used W3C CSS Validator. It should be free of bugs.
 
-![Testing CSS](/readme-images/11-testing-css.png)
+https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ffgit-24.github.io%2FEnglish-Speaking-Tutoring%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+
+![Testing CSS](/readme-images/14-testing-css.png)
 
 ### Unfixed Bugs
 I'm aware that I can improve some of my commits.
